@@ -1,0 +1,4 @@
+# Enable docker sandbox.
+
+build --experimental_enable_docker_sandbox
+build --spawn_strategy=docker,sandboxed

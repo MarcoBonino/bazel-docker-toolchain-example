@@ -1,0 +1,13 @@
+# MODULE.bazel
+
+"""
+Module
+"""
+
+register_toolchains(
+    "//toolchain:arm64_gcc_linux_x86_64",
+)
+
+register_execution_platforms(
+    "//platform:execution_platform",
+)
